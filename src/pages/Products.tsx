@@ -11,62 +11,266 @@ function Products() {
         Vydáváme zdravotní pomůcky na poukazy všech zdravotních pojišťoven,
         přijímáme také <strong className="text-fuchsia-300">ePoukazy</strong>.
       </p>
-      <div className="grid items-start gap-8 lg:grid-cols-2 xl:grid-cols-3">
-        <div className="h-full rounded-xl border-[1px] border-white/30 bg-white/15 p-8 shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-lg">
-          <ul>
-            <li className="mb-4">
-              <strong>Inkontinenční vložky</strong> značek Tena, MoliCare, Abena
-            </li>
-            <li className="mb-4">
-              <strong>Inkontinenční kalhotky</strong> značek Tena, MoliCare,
-              Abena
-            </li>
-            <li className="mb-4">
-              <strong>Kompresní punčochy</strong> Mediven, Avicenum, Maxis
-            </li>
-            <li>
-              <strong>Ortopedické pomůcky</strong> - podpatěnky, korektory,
-              stélky
-            </li>
-          </ul>
-        </div>
-        <div className="h-full rounded-xl border-[1px] border-white/30 bg-white/15 p-8 shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-lg">
-          <ul>
-            <li className="mb-4">
-              <strong>Rehabilitační pomůcky</strong> - gymnastické míče,
-              overbally, balanční podložky, masážní válečky, míčky, tejpy,
-              podsedáky
-            </li>
-            <li className="mb-4">
-              <strong>Zdravotní obuv</strong> na doma i na ven
-            </li>
-            <li className="mb-4">
-              <strong>Zdravotní ponožky</strong> pro diabetiky, adjustační
-              ponožky, bandáže, ortézy, bederní pásy
-            </li>
-          </ul>
-        </div>
-        <div className="h-full rounded-xl border-[1px] border-white/30 bg-white/15 p-8 shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-lg">
-          <ul>
-            <li className="mb-4">
-              <strong>Tlakoměry, teploměry, glukometry</strong>
-            </li>
-            <li className="mb-4">
-              <strong>Dezinfekční přípravky, speciální kosmetika</strong>{" "}
-              Menalind, Seni Care, Tena
-            </li>
-            <li className="mb-4">
-              <strong>Soupravy na klistýr</strong>
-            </li>
-            <li className="mb-4">
-              <strong>Nahřívací a chladivé polštářky</strong>
-            </li>
-            <li>
-              <strong>Podpažní berle, francouzské hole, vycházkové hole</strong>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul className="md:text-lg">
+        <li className="mb-4 flex gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-checkbox"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 11l3 3l8 -8" />
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+          </svg>
+          <span>
+            <strong>Inkontinenční vložky</strong> značek Tena, MoliCare, Abena
+          </span>
+        </li>
+        <li className="mb-4 flex gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-checkbox"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 11l3 3l8 -8" />
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+          </svg>
+          <span>
+            <strong>Inkontinenční kalhotky</strong> značek Tena, MoliCare, Abena
+          </span>
+        </li>
+        <li className="mb-4 flex gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-checkbox"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 11l3 3l8 -8" />
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+          </svg>
+          <span>
+            <strong>Kompresní punčochy</strong> Mediven, Avicenum, Maxis
+          </span>
+        </li>
+        <li className="mb-4 flex gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-checkbox"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 11l3 3l8 -8" />
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+          </svg>
+          <span>
+            <strong>Ortopedické pomůcky</strong> - podpatěnky, korektory, stélky
+          </span>
+        </li>
+
+        <li className="mb-4 flex gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-checkbox"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 11l3 3l8 -8" />
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+          </svg>
+          <span>
+            <strong>Rehabilitační pomůcky</strong> - gymnastické míče,
+            overbally, balanční podložky, masážní válečky, míčky, tejpy,
+            podsedáky
+          </span>
+        </li>
+        <li className="mb-4 flex gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-checkbox"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 11l3 3l8 -8" />
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+          </svg>
+          <span>
+            <strong>Zdravotní obuv</strong> na doma i&nbsp;na ven
+          </span>
+        </li>
+        <li className="mb-4 flex gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-checkbox"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 11l3 3l8 -8" />
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+          </svg>
+          <span>
+            <strong>Zdravotní ponožky</strong> pro diabetiky, adjustační
+            ponožky, bandáže, ortézy, bederní pásy
+          </span>
+        </li>
+        <li className="mb-4 flex gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-checkbox"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 11l3 3l8 -8" />
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+          </svg>
+          <span>
+            <strong>Tlakoměry, teploměry, glukometry</strong>
+          </span>
+        </li>
+        <li className="mb-4 flex gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-checkbox"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 11l3 3l8 -8" />
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+          </svg>
+          <span>
+            <strong>Dezinfekční přípravky, speciální kosmetika</strong>{" "}
+            Menalind, Seni Care, Tena
+          </span>
+        </li>
+        <li className="mb-4 flex gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-checkbox"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 11l3 3l8 -8" />
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+          </svg>
+          <span>
+            <strong>Soupravy na klistýr</strong>
+          </span>
+        </li>
+        <li className="mb-4 flex gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-checkbox"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 11l3 3l8 -8" />
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+          </svg>
+          <span>
+            <strong>Nahřívací a chladivé polštářky</strong>
+          </span>
+        </li>
+        <li className="mb-4 flex gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={24}
+            height={24}
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="icon icon-tabler icons-tabler-outline icon-tabler-checkbox"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 11l3 3l8 -8" />
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+          </svg>
+          <span>
+            <strong>Podpažní berle, francouzské hole, vycházkové hole</strong>
+          </span>
+        </li>
+      </ul>
     </>
   );
 }

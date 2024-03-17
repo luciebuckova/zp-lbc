@@ -1,7 +1,7 @@
 function PageNotFound() {
   return (
     <>
-      <h1>Stránka nebyla nalezena 😢</h1>
+      <p className="font-medium md:text-lg">Stránka nebyla nalezena 😢</p>
     </>
   );
 }

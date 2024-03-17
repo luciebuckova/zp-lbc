@@ -10,7 +10,12 @@ function MobileNav() {
   }
 
   return (
-    <nav className="flex justify-end p-8">
+    <nav className="flex justify-between p-8">
+      <p className="text-lg font-bold">
+        Zdravotnické potřeby
+        <br />
+        Ludmila Bučková
+      </p>
       <HamburgerBtn toggleOpen={toggleOpen} isOpen={isOpen} />
       {isOpen ? (
         <div className="absolute right-0 top-0 z-40 h-screen w-full bg-purple-950 p-8 pt-28 font-medium text-white">
@@ -19,14 +24,14 @@ function MobileNav() {
               <NavLink to="/" className="text-fuchsia-50">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
+                  width={20}
+                  height={20}
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth={2}
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="icon icon-tabler icons-tabler-outline icon-tabler-home"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -42,13 +47,13 @@ function MobileNav() {
               </NavLink>
             </li>
             <li onClick={toggleOpen}>
-              <NavLink to="epoukaz" className="text-fuchsia-50">
-                Zaslat ePoukaz
+              <NavLink to="produkty" className="text-fuchsia-50">
+                Produkty
               </NavLink>
             </li>
             <li onClick={toggleOpen}>
-              <NavLink to="produkty" className="text-fuchsia-50">
-                Produkty
+              <NavLink to="epoukaz" className="text-fuchsia-50">
+                Zaslat ePoukaz
               </NavLink>
             </li>
             <li onClick={toggleOpen}>

@@ -11,8 +11,8 @@ function AppLayout() {
   const isSmallScreen = width <= 1024;
   return (
     <>
-      <SideBar />
-      <main className="flex w-full max-w-6xl flex-col justify-between">
+      {!isSmallScreen && <SideBar />}
+      <main className="flex w-full flex-col justify-between">
         <Header>{isSmallScreen ? <MobileNav /> : <DesktopNav />}</Header>
         <section className="h-full p-8">
           <Outlet />
