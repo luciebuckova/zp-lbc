@@ -58,7 +58,8 @@ function SideBar() {
           <li>pátek 8-16 hod.</li>
         </ul>
         <p className="mb-2 max-w-xs">
-          Vydáváme zboží na poukazy i ePoukazy všech zdravotních pojišťoven.
+          Vydáváme zboží na poukazy i&nbsp;ePoukazy všech zdravotních
+          pojišťoven.
         </p>
         <p>Přijímáme platební karty.</p>
       </div>

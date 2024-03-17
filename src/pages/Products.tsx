@@ -30,7 +30,7 @@ function Products() {
             <path d="M9 11l3 3l8 -8" />
             <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
           </svg>
-          <span>
+          <span className="flex-1">
             <strong>Inkontinenční vložky</strong> značek Tena, MoliCare, Abena
           </span>
         </li>
@@ -51,7 +51,7 @@ function Products() {
             <path d="M9 11l3 3l8 -8" />
             <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
           </svg>
-          <span>
+          <span className="flex-1">
             <strong>Inkontinenční kalhotky</strong> značek Tena, MoliCare, Abena
           </span>
         </li>
@@ -72,7 +72,7 @@ function Products() {
             <path d="M9 11l3 3l8 -8" />
             <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
           </svg>
-          <span>
+          <span className="flex-1">
             <strong>Kompresní punčochy</strong> Mediven, Avicenum, Maxis
           </span>
         </li>
@@ -93,11 +93,10 @@ function Products() {
             <path d="M9 11l3 3l8 -8" />
             <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
           </svg>
-          <span>
+          <span className="flex-1">
             <strong>Ortopedické pomůcky</strong> - podpatěnky, korektory, stélky
           </span>
         </li>
-
         <li className="mb-4 flex gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +114,7 @@ function Products() {
             <path d="M9 11l3 3l8 -8" />
             <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
           </svg>
-          <span>
+          <span className="flex-1">
             <strong>Rehabilitační pomůcky</strong> - gymnastické míče,
             overbally, balanční podložky, masážní válečky, míčky, tejpy,
             podsedáky
@@ -138,7 +137,7 @@ function Products() {
             <path d="M9 11l3 3l8 -8" />
             <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
           </svg>
-          <span>
+          <span className="flex-1">
             <strong>Zdravotní obuv</strong> na doma i&nbsp;na ven
           </span>
         </li>
@@ -159,7 +158,7 @@ function Products() {
             <path d="M9 11l3 3l8 -8" />
             <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
           </svg>
-          <span>
+          <span className="flex-1">
             <strong>Zdravotní ponožky</strong> pro diabetiky, adjustační
             ponožky, bandáže, ortézy, bederní pásy
           </span>
@@ -181,7 +180,7 @@ function Products() {
             <path d="M9 11l3 3l8 -8" />
             <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
           </svg>
-          <span>
+          <span className="flex-1">
             <strong>Tlakoměry, teploměry, glukometry</strong>
           </span>
         </li>
@@ -202,7 +201,7 @@ function Products() {
             <path d="M9 11l3 3l8 -8" />
             <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
           </svg>
-          <span>
+          <span className="flex-1">
             <strong>Dezinfekční přípravky, speciální kosmetika</strong>{" "}
             Menalind, Seni Care, Tena
           </span>
@@ -224,7 +223,7 @@ function Products() {
             <path d="M9 11l3 3l8 -8" />
             <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
           </svg>
-          <span>
+          <span className="flex-1">
             <strong>Soupravy na klistýr</strong>
           </span>
         </li>
@@ -245,7 +244,7 @@ function Products() {
             <path d="M9 11l3 3l8 -8" />
             <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
           </svg>
-          <span>
+          <span className="flex-1">
             <strong>Nahřívací a chladivé polštářky</strong>
           </span>
         </li>
@@ -266,7 +265,7 @@ function Products() {
             <path d="M9 11l3 3l8 -8" />
             <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
           </svg>
-          <span>
+          <span className="flex-1">
             <strong>Podpažní berle, francouzské hole, vycházkové hole</strong>
           </span>
         </li>
